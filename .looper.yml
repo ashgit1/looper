@@ -1,0 +1,9 @@
+tools:
+  jdk:
+    - 1.8.0_102-b14
+  maven:
+    - 3.3.9
+
+flows:
+  dafault:
+    - echo 'mvn version: '; mvn --version
